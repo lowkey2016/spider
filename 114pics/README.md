@@ -17,8 +17,9 @@ spider.get_pics_of_collection('美女', 'http://www.du114.com/meinvtupian/rentiy
 如果要爬取女神 xiayao 的所有图集，先搜到女神的所有图集页面，配置代码示例：
 
 ```
-# 夏瑶
-# spider = Pics114Spider('夏瑶', 'http://www.du114.com/tag/1290.html')
+# 爬取某个女神的所有图集
+spider = Pics114Spider('xiayao', 'http://www.du114.com/tag/1290.html')
+spider.get_all_collections()
 ```
 
 然后运行 **114pic.py** ，爬到的图片会保存在当前目录下。
