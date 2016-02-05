@@ -277,6 +277,9 @@ class Pics114Spider:
 # 诗朵雅
 # spider = Pics114Spider('诗朵雅', 'http://www.du114.com/tag/1230.html')
 
+# 杨晓青儿
+# spider = Pics114Spider('杨晓青儿', 'http://www.du114.com/tag/1212.html') 
+
 # 爬取某个女神的所有图集
 # spider.get_all_collections()
 
